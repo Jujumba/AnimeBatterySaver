@@ -24,7 +24,7 @@ int main() {
                 play(ANGRY);
             } else if (on_charge && percentage >= 80) {
                 play(ASKING);
-            } else if (!on_charge && percentage <= 40) {
+            } else if (!on_charge && percentage <= 20) {
                 play(ASKING_TO_CHARGE);
             }
         } else {
